@@ -14,19 +14,20 @@
         <button @click="decrement">-</button>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://unpkg.com/http-vue-loader"></script>
     <script>
         var app = new Vue({
-          el: '#app',
-          data: {
-            counter: 0
-          },
+            el: '#app', // CSS SELECTOR -> http://youtube.acacha.org/html
+            data: {
+                counter: 0
+            },
             methods: {
-              increment(){
-                  this.counter++
-              },
-              decrement(){
-                  this.counter--
-              },
+                increment() {
+                    this.counter++
+                },
+                decrement() {
+                    this.counter--
+                }
             }
         })
     </script>
