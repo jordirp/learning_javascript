@@ -1,10 +1,11 @@
-<Template>
+<template>
   <div>
-    <p>{{counter}}</p>
+    <p>{{ counter }}</p>
     <button @click="increment">+</button>
-    <button @click="decrement">-</button>
+    <button @click="decrement()">-</button>
   </div>
-</Template>
+</template>
+
 <script>
 
 export default  {
@@ -22,3 +23,6 @@ export default  {
     }
   }
 </script>
+<styles>
+
+</styles>

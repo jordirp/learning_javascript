@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import Counter from'./counter'
+import Counter from'./counter.vue'
 defineProps({
   msg: String
 })
